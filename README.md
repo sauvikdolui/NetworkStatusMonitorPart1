@@ -29,4 +29,4 @@ func applicationWillEnterForeground(_ application: UIApplication) {
 
 ### Result
 
-[Output Video](https://raw.githubusercontent.com/sauvikatinnofied/NetworkStatusMonitorPart1/master/NetworkStatusMonitorResultBlog1.gif)
+![Output Video](https://raw.githubusercontent.com/sauvikatinnofied/NetworkStatusMonitorPart1/master/NetworkStatusMonitorResultBlog1.gif)
