@@ -26,3 +26,7 @@ func applicationWillEnterForeground(_ application: UIApplication) {
   ReachabilityManager.shared.stopMonitoring()
 }
 ```
+
+### Result
+
+[Output Video](https://raw.githubusercontent.com/sauvikatinnofied/NetworkStatusMonitorPart1/master/NetworkStatusMonitorBlog1.mp4)
