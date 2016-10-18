@@ -13,12 +13,12 @@ class ReachabilityManager: NSObject {
     
     static let shared = ReachabilityManager()  // 2. Shared instance
     
-    // 3. Boolen to track network reachability
+    // 3. Boolean to track network reachability
     var isNetworkAvailable : Bool {
-        return reachabilityStatus == .notReachable
+        return reachabilityStatus != .notReachable
     }
     
-    // 4. tracks current NetworkStatus (notReachable, reachableViaWiFi, reachableViaWWAN)
+    // 4. Tracks current NetworkStatus (notReachable, reachableViaWiFi, reachableViaWWAN)
     var reachabilityStatus: Reachability.NetworkStatus = .notReachable
     
     // 5. Reachibility instance for Network status monitoring
